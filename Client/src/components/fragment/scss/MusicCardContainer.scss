@@ -1,0 +1,14 @@
+.music-card-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 970px) {
+  .music-card-container {
+    height: 70vh;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -1,0 +1,15 @@
+.Container{
+  background-color: #1c1e1f;
+  height: 90vh;
+  padding-top: 2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  >div{
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .Container {
+    height: 70vh;
+  }
+}

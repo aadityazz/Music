@@ -1,0 +1,36 @@
+.Footer_Select_Music {
+  background-color: #131415;
+  color: #24af6a;
+  position: absolute;
+  width: 100%;
+  height: 12vh;
+  bottom: 0;
+  p{
+    left: 50%;
+    font-size: larger;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: Consolas,sans-serif;
+    line-height: 10vh;
+    padding: 2px;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  p:hover{
+    text-shadow: -1px 1px 0 #67de37,
+    0.5px 0.5px 0 #67de37,
+    0.5px -0.5px 0 #67de37,
+    -0.5px -0.5px 0 #67de37;
+  }
+}
+@media only screen and (max-width: 445px) {
+  .Footer_Select_Music{
+    p{
+      font-size: 1rem;
+      line-height: 10vh;
+      letter-spacing: 1px;
+    }
+  }
+}

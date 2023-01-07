@@ -1,0 +1,58 @@
+.aside-bar {
+  color: #F1F1F1;
+  background-color: #131415;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  overflow: auto;
+  border-right: 1px solid #333741;
+  .p1 {
+    color: #F1F1F1;
+    border-bottom: 1px solid #2d3636;
+    padding: 15px;
+    font-weight: bolder;
+    user-select: none;
+  }
+  .lib-sub {
+    color: #F1F1F1;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .MuiButton-startIcon{
+      color: #F1F1F1;
+    }
+  }
+  .aside-bar-container {
+    color: #F1F1F1;
+    background-color: #131415;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+  }
+  .playlist{
+    flex: 1;
+    .p1{
+      border-top: 1px solid #24af6a;
+    }
+    .lib-sub:hover{
+      background-color: #2a965c;
+    }
+  }
+}
+.playlist-plus{
+  margin-left: 4rem;
+}
+
+.playlist-plus:hover{
+  background-color: #2fea8e;
+}
+
+@media only screen and (max-width: 970px) {
+  .aside-bar {
+    display: none;
+  }
+}

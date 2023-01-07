@@ -1,0 +1,38 @@
+@mixin flexBox() {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  height: 10vh;
+  display: flex;
+  background-color: #282c34;
+  user-select: none;
+  border-bottom: 1px solid #282c34;
+  padding-right: 10px;
+
+  div {
+    @include flexBox;
+  }
+
+  .navigation {
+    background-color: #282c34;
+    flex-flow: row wrap;
+  }
+
+  .Dropdown-btn {
+    display: flex;
+    .wrapper {
+      padding: 0;
+      flex-direction: column;
+    }
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  nav {
+    display: none;
+  }
+}

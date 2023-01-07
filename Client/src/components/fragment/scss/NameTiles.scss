@@ -1,0 +1,23 @@
+.song-name-x{
+  font-weight: bolder;
+  font-size: 1rem;
+  margin-left: 5%;
+  width: 30%;
+}
+.author-name-x{
+  margin-left: 24%;
+  font-weight: lighter;
+  color: #ffffff;
+  width: max-content;
+}
+.titles{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  .author-name-x{
+    right: 2%;
+  }
+}
+
+

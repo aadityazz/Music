@@ -1,0 +1,40 @@
+.Home-skeleton{
+  height: 100%;
+  width: 100vw;
+}
+.home-music-container{
+  display: flex;
+  .sidebar-home{
+    flex: 0.2;
+  }
+  .main-home{
+    flex: 0.8;
+    .wisher{
+      font-size: xx-large;
+      color: #F1F1F1;
+      padding-top: 3rem;
+      padding-left: 1.5rem;
+      background-color: #1c1e1f;
+      padding-bottom: 2rem;
+    }
+  }
+}
+
+
+.current-large-banner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+}
+@media only screen and (max-width: 970px) {
+  .home-music-container {
+    .sidebar-home{
+      flex: 0;
+    }
+    .main-home{
+      flex: 1;
+    }
+  }
+}

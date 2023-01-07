@@ -1,0 +1,22 @@
+.dropdown-profile {
+  color: #000000;
+  text-align: center;
+  height: 80px;
+  position: absolute;
+  z-index: 100000;
+  top: 127px;
+  left: 115px;
+  border-radius: 0 0 10px 10px;
+  border: 1px solid #e0e0e0;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  .MuiSvgIcon-root{
+    color: #24af6a;
+  }
+}
+
+.b-button{
+  background-color: #131415;
+  color: #F1F1F1;
+}

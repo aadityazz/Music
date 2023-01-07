@@ -1,0 +1,19 @@
+
+.thumbnail-image{
+    width: 105%;
+    height: 40vh;
+    object-fit: cover;
+    margin-left: -20px;
+    margin-top: -27px;
+    filter: blur(8px)
+}
+
+.thumbnail-title{
+    font-size: xxx-large;
+    position: relative;
+    z-index: 100000;
+    font-weight: bolder;
+    color: #F1F1F1;
+    top: -12vh;
+    left: 6%;
+}

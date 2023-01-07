@@ -1,0 +1,53 @@
+.music-card-x{
+  width: 80%;
+  display: inline-flex;
+  margin-bottom: 20px;
+  .music-card-cover-x {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+    .play-circle{
+      position: absolute;
+      visibility: hidden;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      .MuiSvgIcon-root{
+        font-size: 4rem;
+      }
+    }
+
+    .hover-img{
+      visibility: visible;
+    }
+  }
+
+  .music-card-cover-x:hover{
+    cursor: pointer;
+
+    img{
+      filter: brightness(0.34);
+    }
+
+    .play-circle{
+      color: #fff;
+      visibility: visible;
+    }
+  }
+}
+
+
+
+
+@media only screen and (max-width: 545px) {
+  .music-card-x {
+    .music-card-cover-x {
+      img{
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
+}
